@@ -1,0 +1,55 @@
+.wetherBg{
+  background: url("https://wallpapercave.com/wp/aZSazBV.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  text-shadow: 0 0 3px #0c0c0c;
+  color:red;
+  font-weight: 700;
+}
+.wetherResultBox{
+  text-shadow: 0 0 3px #0c0c0c;
+  color: red;
+  margin: auto;
+  width: 500px;
+  height: 300px;
+  background-color: rgb(243, 246, 248);
+  
+  
+}
+.weathorIcon{
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.weathorCity{
+  font-size: 35px;
+}
+.weathorTemp{
+  font-size:55px;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width: 740px) {
+  .wetherBg {
+  background: url("https://wallpapercave.com/wp/aZSazBV.jpg");
+  height: 340px;
+  width: 500px; ;
+
+  }
+  .wetherResultBox{
+    color: red;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(243, 246, 248);
+  }
+
+
+ 
+}
